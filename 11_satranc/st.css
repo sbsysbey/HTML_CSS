@@ -1,0 +1,5 @@
+#chessbox{width:640px; height:640px; border:15px brown solid;border-radius:10px;margin:auto}
+.sekizli{ width:auto;height:70px;font-size:50px;text-align:center}
+.tumkare{width:70px; height:70px;float:left;border:4px #000 solid;margin:1px 1px 1px 1px}
+.bkare{background-color:#FFF}
+.skare{ background-color:gray}
