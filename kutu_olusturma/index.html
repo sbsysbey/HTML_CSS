@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+ <script src="script.js"></script>
+ </head>
+  <body>
+    <form action="">
+<table>
+  <tr>
+    <td width="200" height="30">Genişlik</td>
+    <td width="300"><input id="genislik" type="text"></td>
+  </tr>
+  <tr>
+    <td height="30">Yükseklik</td>
+    <td><input id="yukseklik" type="text"></td>
+  </tr>
+  <tr>
+    <td height="30">Kenarlık Kalınlığı</td>
+    <td><select name="" id="kenkal">
+      <option>Bir Çizgi Kalınlığı Seçiniz</option>  
+      <option value="1px">1px</option>
+      <option value="2px">2px</option>
+      <option value="3px">3px</option>
+      <option value="4px">4px</option>
+      <option value="5px">5px</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td height="30">Kenarlık Tipi</td>
+    <td><select name="" id="kentip">
+      <option>Bir Kenarlık Tipi Seçiniz</option>
+    <option value="Solid">Solid</option>
+      <option value="Dashed">Dashed</option>
+      <option value="Dotted">Dotted</option>
+      <option value="Double">Double</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td height="30">Kenarlık Rengi</td>
+    <td><select name="" id="kenrenk">
+      <option>Bir Renk Seçiniz</option>
+      <option value="#f00">Kırmızı</option>
+  <option value="#00f">Mavi</option>
+ <option value="#0f0">Yeşil</option>
+ <option value="#000">Siyah</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td height="30">Arka Plan Rengi</td>
+    <td><select name="" id="arkaplan">
+      <option>Bir Arka Plan Rengi Seçiniz</option>
+      <option value="#f00">Kırmızı</option>
+  <option value="lightblue">Mavi</option>
+ <option value="lightgreen">Yeşil</option>
+ <option value="#000">Siyah</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td height="30">Ovallik</td>
+    <td><select name="" id="ovallik">
+    <option>Ovallik Miktari</option>
+      <option value="3px">3px</option>
+  <option value="5px">5px</option>
+ <option value="10px">10px</option>
+ <option value="15px">15px</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td height="30"></td>
+    <td><input type="button" value="Oluştur"  onclick="divolustur()"></td>
+  </tr>
+</table>
+    </form>
+    <br><br><br>
+<input type="reset" value="Temizle" onclick="sil()">
+
+    <div id="kutu"></div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+#siliderust{
+  width: 715px; height: 402px;;
+ }
+#silideralt{
+  width: 715px; height: 49px; background: #000;
+ }
+ ul{
+   margin:0;
+   padding:0;
+   list-style:none ;
+ }
+ li{
+display: block;
+ width: 40px;
+  height: 49px;
+  float: left;
+  font: bold 18px arial;color: #FFF;
+  text-align: center;
+  line-height: 49px;
+cursor: pointer;
+ }
+ li:hover{
+   background: #f00;
+ }
+ #silideraltic{
+   width: 405px;
+    height: 49px;
+   margin: 0 auto;
+ }
+#sayi1{
+
+}
+
+
