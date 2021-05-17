@@ -1,0 +1,106 @@
+
+*{margin:0;
+box-sizing: border-box;}
+body{
+  font-family: Arial, Helvetica, sans-serif
+}
+header{
+ position:relative;
+  width: 100%;
+ height: 122px;
+ border:outset 10px #72ad25;
+-moz-border-radius-topleft: 17px;
+-moz-border-radius-topright:58px;
+-moz-border-radius-bottomleft:67px;
+-moz-border-radius-bottomright:0px;
+-webkit-border-top-left-radius:58px;
+-webkit-border-top-right-radius:58px;
+-webkit-border-bottom-left-radius:67px;
+-webkit-border-bottom-right-radius:0px;
+border-top-left-radius:58px;
+border-top-right-radius:58px;
+border-bottom-left-radius:0px;
+border-bottom-right-radius:0px;
+background:-webkit-gradient(radial, 184 69, 0, -69 -143, 421, from(#65BE86), to(#917BAD))
+}
+body{
+  background-color: rgb(228, 223, 231);
+
+}
+#log{
+  border-radius:50%;
+  width: 150px;
+height: 85px;
+margin:8px 10px 0 30px;
+}
+#logo{
+  width: 20%;
+  float: left;
+ z-index:1;
+}
+
+.navbar{
+
+  height:40px;
+ position:relative;
+}
+.nav{
+position:relative;
+width: 80%;
+/*border: 2px solid rgb(112, 112, 177);*/
+margin: 0 0 0 120px;
+
+}
+
+.headerlist li{
+display: inline-block;
+margin: 0 10px;
+letter-spacing: 0.1rem;
+
+font-size: 21px ;
+ font-weight: 800px;
+font-family: 'SouciSansRegular';
+position:relative;
+src: local('SouciSans'), local('SouciSans'), url('SOUCISAN.woff') format('woff'), url('SOUCISAN.ttf') format('truetype');}
+.classname{ font:37px bolder normal SouciSansRegular;}
+
+.headerlist{
+ position:relative;
+  padding: 76px 0 0 20px;
+ word-spacing: 10px;
+  margin-left: 25%;
+
+}
+.dunya{
+   width: 100%;
+   height:420px ;
+  background: url(/resim/dunya.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+
+  margin :-55px 0 0 0;
+display: flex;
+}
+.liste{
+margin: 50px 120px  0 60%;
+position:relative;
+float:left;
+display:block;
+text-align:center;
+list-style: none;
+}
+.liste li{
+
+margin: 10px 10px;
+letter-spacing: 0.1rem;
+
+
+font-size: 21px ;
+ font-weight: 800px;
+font-family: 'SouciSansRegular';
+position:relative;
+src: local('SouciSans'), local('SouciSans'), url('SOUCISAN.woff') format('woff'), url('SOUCISAN.ttf') format('truetype');}
+.classname{ font:37px bolder normal SouciSansRegular;}
+
+
+
