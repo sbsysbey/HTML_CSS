@@ -1,0 +1,60 @@
+.genel{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+  
+    background-color: rgb(74, 151, 151);
+    width: 40vw;
+   min-width: 80px;
+    height: 60vh;
+min-height: 200px;
+
+ 
+    margin-left: 20vw;
+    margin-top: 10vw;
+
+}
+.bodyozel{
+    background-color: lightblue;
+}
+.h3ozel{
+    text-align: center;
+padding-top: 7vh;
+color: rgb(202, 248, 141);
+font-style: italic;
+font-size: inherit;
+font-size: x-large;
+}
+
+.sonuc{
+    font-size:20px ;
+    
+}
+
+
+.cevapla{
+    margin-top: 40px;
+margin-left: 10px;
+   
+}
+.tekrar{
+    margin-top: 40px;
+margin-left: 10px;
+}
+.girisler{
+    width: 200px;
+
+ 
+}
+.dene{
+     width: 8vw;
+     color:cornsilk;
+      float:left;
+       position: justify;
+       margin-left: 10px;
+}
+.saat{
+margin: 0 auto 0 auto;
+height: 50px;
+font:xx-large tahoma;
+    
+}
