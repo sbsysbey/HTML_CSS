@@ -1,0 +1,79 @@
+.ipad{
+width: 50%;
+height: 450px;
+background-image: url("depo/arka.jpg") ;
+border-radius: 10PX;
+border: solid rgba(120, 122, 120, 0.959) 10px;
+margin: 40px auto;
+}
+.homebutton{
+
+    width: 40px; 
+    height: 40px;
+    background-image: url("depo/home.jpg");
+float: left;
+text-align:center;
+align-items:center;
+}
+.homeyeri{
+    display:flex;
+  justify-content:center;
+    width: 45px;
+    height: 100%;
+    border: solid white 1px;
+    float: left;
+   background-color:rgb(243, 233, 209);
+    align-items:center;
+  
+}
+
+.ekran{
+  width : 100%;
+  height: 450px;
+
+}
+.ikonlar{
+    width: 80px;
+    height: 60px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 30px;
+    border: thistle 2px solid;
+    border-radius: 12px;
+   text-align: center;
+   color: rgb(251, 252, 198);
+padding-top: 60px;
+cursor: pointer;
+
+}
+
+.ikon1{
+    background-image: url("depo/apps.png");}
+.ikon2{
+    background-image: url("depo/youtube.png");}
+.ikon3{
+    background-image: url("depo/harita.png");}
+.ikon4{
+    background-image: url("depo/messenger.png");}
+.ikon5{
+    background-image: url("depo/mail.png");}
+.ikon6{
+    background-image: url("depo/photos5.jpg");}
+.ikon7{
+    background-image: url("depo/itun.jpg") ;
+}
+
+.ikon8{background-image: url("depo/google.jpg");}
+   
+.ikon9{background-image: url("depo/facetime.png");}
+.ikon10{background-image: url("depo/kamera.png");}
+.ikon11{background-image: url("depo/saat.png");}
+    
+.ikon12{background-image: url("depo/hesap.png");}
+.ikon13{background-image: url("depo/hava.png");}
+    
+.ikon14{background-image: url("depo/not.png");}
+iframe{
+    width: 100%;
+    height: 100%;
+}
